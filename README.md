@@ -71,8 +71,6 @@ Check out the original author’s other plugin:
 
 ## Localisation
 
-[![Crowdin](https://badges.crowdin.net/sdh-gamethememusic/localized.svg)](https://crowdin.com/project/sdh-gamethememusic)
-
 > Note: This fork currently uses the same Crowdin project as the original repository.  
 > If we ever migrate translation infrastructure, we will document the new workflow.
 
