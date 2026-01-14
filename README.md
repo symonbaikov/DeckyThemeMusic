@@ -1,28 +1,52 @@
-# Game Theme Music
+# DeckyThemeMusic
 
-# No longer Maintained.
+Maintained fork of **SDH-GameThemeMusic** by [OMGDuke](https://github.com/OMGDuke).  
+A Decky Loader plugin that plays theme songs on your Steam Deck game pages.
 
-[![Crowdin](https://badges.crowdin.net/sdh-gamethememusic/localized.svg)](https://crowdin.com/project/sdh-gamethememusic) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://deckbrew.xyz/discord)
+[![Crowdin](https://badges.crowdin.net/sdh-gamethememusic/localized.svg)](https://crowdin.com/project/sdh-gamethememusic)
+[![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://deckbrew.xyz/discord)
 
-Play theme songs on your game pages. Compatible with the [AudioLoader](https://github.com/EMERALD0874/SDH-AudioLoader) plugin (AudioLoader version >= 1.5.0).
+![DeckyThemeMusic](./assets/screenshot.jpg)
 
-![Game Theme Music](./assets/screenshot.jpg)
+## Status
 
-## How it works
+This repository is an actively maintained community fork focused on:
+- restoring compatibility with recent Decky / SteamOS updates
+- fixing broken behavior and regressions
+- keeping translations and docs usable
 
-This plugin will find a games theme music based on the games name and play it in the background. An internet connection is required. It also supports non steam games.
+If you’re looking for the original project:  
+https://github.com/OMGDuke/SDH-GameThemeMusic
 
-The song that plays can be customised via the games context menu.
+## Features
+
+- Plays theme songs on game pages (Steam and non-Steam games)
+- Requires an internet connection
+- Compatible with the [AudioLoader](https://github.com/EMERALD0874/SDH-AudioLoader) plugin (AudioLoader version >= 1.5.0)
+- Lets you customize which song plays via the game context menu
 
 ![The song that plays can be customised via the games context menu.](./assets/screenshot2.jpg)
 
+## How it works
+
+DeckyThemeMusic finds theme music based on the game name and plays it in the background while you browse game pages.  
+For non-Steam games, matching is based on the displayed name.
+
 ## Decky Loader
 
-This plugin requires [Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader). Game Theme Music is available on the store.
+This plugin requires [Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader).  
+Depending on the current state of the Decky store, you may install via store or manually (see Releases).
 
-## Steam Deck Homebrew Discord
+## Community
 
+### Steam Deck Homebrew Discord
 [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://deckbrew.xyz/discord)
+
+If something breaks after a Decky/SteamOS update, open an issue with:
+- SteamOS version
+- Decky Loader version
+- plugin version
+- steps to reproduce
 
 ## Press and Media
 
@@ -42,9 +66,18 @@ This plugin requires [Decky Loader](https://github.com/SteamDeckHomebrew/decky-l
 
 ## Other Plugins
 
-Check out my other plugin [ProtonDB Badges ❤️](https://github.com/OMGDuke/protondb-decky)
+Check out the original author’s other plugin:  
+[ProtonDB Badges ❤️](https://github.com/OMGDuke/protondb-decky)
 
 ## Localisation
+
+[![Crowdin](https://badges.crowdin.net/sdh-gamethememusic/localized.svg)](https://crowdin.com/project/sdh-gamethememusic)
+
+Localisation is available via [Crowdin](https://crowdin.com/project/sdh-gamethememusic).  
+Contributions are welcome.
+
+> Note: This fork currently uses the same Crowdin project as the original repository.  
+> If we ever migrate translation infrastructure, we will document the new workflow.
 
 [![Crowdin](https://badges.crowdin.net/sdh-gamethememusic/localized.svg)](https://crowdin.com/project/sdh-gamethememusic)
 
